@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group
+        android:id="@+id/profile"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile" />
+    </group>
+
+    <group
+        android:id="@+id/news"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="@string/news"
+            app:showAsAction="always"
+            tools:ignore="AlwaysShowAction,MenuTitle" />
+        <item
+            android:id="@+id/nav_national"
+            android:icon="@drawable/ic_national"
+            android:title="@string/_national"
+            app:showAsAction="always"
+            tools:ignore="MenuTitle" />
+
+        <item
+            android:id="@+id/nav_international"
+            android:icon="@drawable/ic_international"
+            android:title="@string/_international"
+            app:showAsAction="always"
+            tools:ignore="MenuTitle" />
+
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_sports"
+            android:title="@string/_sports"
+            app:showAsAction="always"
+            tools:ignore="MenuTitle" />
+
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@drawable/ic_entertainment"
+            android:title="@string/_entertainment"
+            app:showAsAction="always"
+            tools:ignore="MenuTitle" />
+
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_business"
+            android:title="@string/_business"
+            app:showAsAction="always"
+            tools:ignore="MenuTitle" />
+
+        <item
+            android:id="@+id/nav_technology"
+            android:icon="@drawable/ic_technology"
+            android:title="@string/_technology"
+            app:showAsAction="always"
+            tools:ignore="MenuTitle" />
+
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_health"
+            android:title="@string/_health"
+            app:showAsAction="always"
+            tools:ignore="MenuTitle" />
+
+    </group>
+
+    <group
+        android:id="@+id/weather"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_weather"
+            android:title="@string/weather" />
+    </group>
+</menu>
